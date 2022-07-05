@@ -1,10 +1,12 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+import Routes from './Routes/Routes';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Murilo dos Paços</h1>
+    <div className="meals">
+      <Routes />
     </div>
   );
 }
